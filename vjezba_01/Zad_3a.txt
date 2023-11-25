@@ -1,0 +1,1 @@
+Ako koristimo englesku abecedu sa 26 slova, K = 2, tj 26/2=13, dakle 13 koraka.
