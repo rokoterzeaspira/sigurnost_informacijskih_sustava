@@ -1,0 +1,1 @@
+Macchanger služi kako bi promijenio, tj lažirao MAC adresu od mrežne kartice koju korisitmo.
