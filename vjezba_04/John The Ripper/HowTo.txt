@@ -1,0 +1,5 @@
+1. Kreiramo .zip file s nekim sadrzajem, te enkriptiramo .zip file s nekom zaporkom (npr. 123456789) [Slika 1]
+2. Unutar Kali Linux terminala, pozicinioniramo se u direktorij gdje se nalazi target .zip file
+3. Naredbom "zip2john Test.zip > hash.txt" extract-iramo hash vrijednost dodijeljene zaporke .zip file-u unutar hash.txt datoteke. [Slika 2]
+4. Pokrenemo komandu "john --format=zip hash.txt", gdje navedeno format i mjesto gdje se nalazi extract-irana hash-irana zaporka od target .zip foldera.
+5. Nakon izvršenja, lozinka je prikazana unutar terminala. [Slika 3]
